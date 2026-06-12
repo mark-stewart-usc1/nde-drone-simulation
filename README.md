@@ -20,9 +20,9 @@ Initial simulation platform.
 
 Files:
 
-models/nde_drone_rdq
-models/nde_drone_rdq_base
-airframes/4022_gz_nde_drone_rdq
+- models/nde_drone_rdq
+- models/nde_drone_rdq_base
+- airframes/4022_gz_nde_drone_rdq
 
 ### TBS Source One V6 7" Deadcat
 
@@ -39,9 +39,9 @@ Features:
 
 Files:
 
-models/nde_drone_tbs
-models/nde_drone_tbs_base
-airframes/4022_gz_nde_drone_tbs
+- models/nde_drone_tbs
+- models/nde_drone_tbs_base
+- airframes/4022_gz_nde_drone_tbs
 
 ## Software Stack
 
