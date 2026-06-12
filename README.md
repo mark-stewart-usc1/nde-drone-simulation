@@ -12,16 +12,36 @@ Custom PX4/Gazebo simulation platform developed for autonomous nondestructive ev
 - Custom NDE Airframe ✓
 - Custom Gazebo Model ✓
 
-## Repository Structure
+## Simulation Versions
 
-### Gazebo Models
+### RDQ Source One V4
 
-models/nde_drone
-models/nde_drone_base
+Initial simulation platform.
 
-### PX4 Airframe
+Files:
 
-airframes/4022_gz_nde_drone
+models/nde_drone_rdq
+models/nde_drone_rdq_base
+airframes/4022_gz_nde_drone_rdq
+
+### TBS Source One V6 7" Deadcat
+
+Current simulation platform.
+
+Features:
+
+- Updated frame geometry
+- Updated mass properties
+- Updated inertia tensor
+- Updated rotor geometry
+- Updated camera placement
+- Updated H-Flow sensor placement
+
+Files:
+
+models/nde_drone_tbs
+models/nde_drone_tbs_base
+airframes/4022_gz_nde_drone_tbs
 
 ## Software Stack
 
